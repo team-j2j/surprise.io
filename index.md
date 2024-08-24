@@ -18,21 +18,26 @@
             margin-bottom: 20px;
             animation: fadeIn 2s ease-out;
         }
-        .quote {
+        .quote, .quote-second {
             font-size: 1.5em;
             margin-bottom: 20px;
-            animation: fadeIn 2s ease-out 1s;
-            opacity: 0;
+            animation: fadeIn 2s ease-out;
+            opacity: 1; /* Ensure text stays visible */
         }
-        .heart {
+        .quote-second {
+            animation: fadeIn 2s ease-out 1s; /* Delayed fade-in for the second quote */
+        }
+        .heart, .heart-stable {
             width: 200px;
             height: 200px;
             position: relative;
             margin: 0 auto;
-            transform: rotate(45deg);
-            animation: rotateHeart 4s infinite linear;
             background: transparent;
             margin-bottom: 20px;
+        }
+        .heart {
+            transform: rotate(45deg);
+            animation: rotateHeart 4s infinite linear;
         }
         .heart:before, .heart:after {
             content: "";
@@ -62,6 +67,19 @@
             left: 0;
             border-radius: 50%;
         }
+        .heart-stable {
+            border: 10px solid #ff0047; /* Neon red */
+            border-radius: 50%;
+            background: transparent;
+        }
+        .heart-stable-inner {
+            width: 100%;
+            height: 100%;
+            background-image: url('her-picture.jpg'); /* Same image or different */
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
         @keyframes rotateHeart {
             0% { transform: rotate(0deg) rotate(45deg); }
             100% { transform: rotate(360deg) rotate(45deg); }
@@ -81,6 +99,10 @@
     <div class="heart">
         <div class="heart-inner"></div>
     </div>
+    <div class="heart-stable">
+        <div class="heart-stable-inner"></div>
+    </div>
+    <div class="quote-second">"Another heartfelt message goes here. You always look good, so keep up that smile, looking forward to have more trips with you, you still have no idea what all can i do still for you, for now lets keep it as surpise, my mind is constantly in how to surpise you, but anyway missing you a lot...."</div>
     <audio autoplay>
         <source src="songs/song.mp3" type="audio/mp3">
         Your browser does not support the audio element.
