@@ -79,26 +79,29 @@
             background: transparent;
             width: 150px; /* Adjusted size */
             height: 150px; /* Adjusted size */
+            display: flex;
+            justify-content: center;
+            align-items: center;
             position: relative;
         }
         .heart-stable-inner {
-            width: 100%;
-            height: 100%;
+            width: 140px; /* Slightly smaller than the border to fit well */
+            height: 140px; /* Same size as width */
             background-size: cover;
             background-position: center;
             border-radius: 50%;
             position: absolute;
-            top: 0;
-            left: 0;
+            top: 5px; /* Adjust to fit nicely */
+            left: 5px; /* Adjust to fit nicely */
         }
         .heart-stable:nth-child(1) .heart-stable-inner {
             background-image: url('songs/pic.jpg'); /* First image */
         }
         .heart-stable:nth-child(2) .heart-stable-inner {
-            background-image: url('songs/pic2.jpg'); /* Second image */
+            background-image: url('songs/pic2.jpeg'); /* Second image */
         }
         .heart-stable:nth-child(3) .heart-stable-inner {
-            background-image: url('songs/pic3.jpg'); /* Third image */
+            background-image: url('songs/pic3.jpeg'); /* Third image */
         }
         @keyframes rotateHeart {
             0% { transform: rotate(0deg) rotate(45deg); }
