@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -68,9 +69,10 @@
         }
         .heart-stable-container {
             display: flex;
-            justify-content: center;
-            gap: 20px; /* Space between hearts */
+            justify-content: space-around; /* Space between hearts */
+            align-items: center;
             margin-bottom: 20px;
+            height: 200px; /* Ensure container has the same height as hearts */
         }
         .heart-stable {
             border: 10px solid #ff0047; /* Neon red */
@@ -84,14 +86,14 @@
             position: relative;
         }
         .heart-stable-inner {
-            width: 140px; /* Slightly smaller than the border to fit well */
-            height: 140px; /* Same size as width */
+            width: 130px; /* Slightly smaller than the outer border to fit well */
+            height: 130px; /* Same size as width */
             background-size: cover;
             background-position: center;
             border-radius: 50%;
             position: absolute;
-            top: 5px; /* Adjust to fit nicely */
-            left: 5px; /* Adjust to fit nicely */
+            top: 10px; /* Adjust to fit nicely */
+            left: 10px; /* Adjust to fit nicely */
         }
         .heart-stable:nth-child(1) .heart-stable-inner {
             background-image: url('songs/pic.jpg'); /* First image */
@@ -116,7 +118,7 @@
     </style>
 </head>
 <body>
-    <h1>Hello Jyoti Ji, Aapke liye ek message hai, hopefully accha lagega aapko padhke....</h1>
+    <h1>Hello Jyoti Ji, Aaapke ek message hai, hopefully it will destress you!!!!</h1>
     <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle. Good luck with your placements! Stay focused and keep going strong." ~ Legend Jatin Kalal</div>
     <div class="heart">
         <div class="heart-inner"></div>
