@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +59,7 @@
         .heart-inner {
             width: 200px;
             height: 200px;
-            background-image: url('songs/pic.jpg'); /* Add your image here */
+            background-image: url('her.jpg'); /* Add your image here */
             background-size: cover;
             background-position: center;
             position: absolute;
@@ -75,7 +75,7 @@
         .heart-stable-inner {
             width: 100%;
             height: 100%;
-            background-image: url('her-picture.jpg'); /* Same image or different */
+            background-image: url('songs/pic.jpg'); /* Same image or different */
             background-size: cover;
             background-position: center;
             border-radius: 50%;
