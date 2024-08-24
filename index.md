@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -117,7 +116,7 @@
     </style>
 </head>
 <body>
-    <h1>For You, Ms Jyoti Ji</h1>
+    <h1>Hello Jyoti Ji, Aapke liye ek message hai, hopefully accha lagega aapko padhke....</h1>
     <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle. Good luck with your placements! Stay focused and keep going strong." ~ Legend Jatin Kalal</div>
     <div class="heart">
         <div class="heart-inner"></div>
