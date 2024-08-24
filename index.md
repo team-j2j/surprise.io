@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,17 +61,16 @@
         0% { transform: rotate(0deg) rotate(45deg); }
         100% { transform: rotate(360deg) rotate(45deg); }
     }
-</style>
-
+    </style>
 </head>
 <body>
     <h1>For You, Ms Jyoti Ji</h1>
-    <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle, Good luck with your placements! Stay focused and keep going strong". ~ Legend Jatin Kalal</div>
+    <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle. Prepare really well for your placements, make your parents proud, and i know you will do it, just stop thinking too much, i want to always stay by yourside. Good luck with your placements! Stay focused and keep going strong." ~ Legend Jatin Kalal</div>
     <div class="heart">
         <div class="heart-inner"></div>
     </div>
     <audio autoplay>
-        <source src="background-music.mp4" type="audio/mp4">
+        <source src="background-music.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 </body>
