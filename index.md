@@ -71,13 +71,15 @@
             display: flex;
             justify-content: center;
             gap: 20px; /* Space between hearts */
+            margin-bottom: 20px;
         }
         .heart-stable {
             border: 10px solid #ff0047; /* Neon red */
             border-radius: 50%;
             background: transparent;
-            width: 150px; /* Reduced size */
-            height: 150px; /* Reduced size */
+            width: 150px; /* Adjusted size */
+            height: 150px; /* Adjusted size */
+            position: relative;
         }
         .heart-stable-inner {
             width: 100%;
@@ -89,13 +91,13 @@
             top: 0;
             left: 0;
         }
-        .heart-stable-inner:nth-child(1) {
+        .heart-stable:nth-child(1) .heart-stable-inner {
             background-image: url('songs/pic.jpg'); /* First image */
         }
-        .heart-stable-inner:nth-child(2) {
+        .heart-stable:nth-child(2) .heart-stable-inner {
             background-image: url('songs/pic2.jpg'); /* Second image */
         }
-        .heart-stable-inner:nth-child(3) {
+        .heart-stable:nth-child(3) .heart-stable-inner {
             background-image: url('songs/pic3.jpg'); /* Third image */
         }
         @keyframes rotateHeart {
