@@ -59,7 +59,7 @@
         .heart-inner {
             width: 200px;
             height: 200px;
-            background-image: url('her-picture.jpg'); /* Add your image here */
+            background-image: url('songs/pic.jpg'); /* Add your image here */
             background-size: cover;
             background-position: center;
             position: absolute;
@@ -102,7 +102,7 @@
     <div class="heart-stable">
         <div class="heart-stable-inner"></div>
     </div>
-    <div class="quote-second">"Another heartfelt message goes here. You always look good, so keep up that smile, looking forward to have more trips with you, you still have no idea what all can i do still for you, for now lets keep it as surpise, my mind is constantly in how to surpise you, but anyway missing you a lot...."</div>
+    <div class="quote-second">"Another heartfelt message goes here. You always look good, so keep up that smile, looking forward to have more trips with you, you still have no idea what all can i do still for you, for now lets keep it as surpise, my mind is constantly in how to surpise you and also dont forget about making reels, but anyway missing you a lot...."</div>
     <audio autoplay>
         <source src="songs/song.mp3" type="audio/mp3">
         Your browser does not support the audio element.
