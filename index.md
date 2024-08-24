@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +26,7 @@
         .quote-second {
             animation: fadeIn 2s ease-out 1s; /* Delayed fade-in for the second quote */
         }
-        .heart, .heart-stable-container {
+        .heart, .heart-stable {
             width: 200px;
             height: 200px;
             position: relative;
@@ -67,36 +66,18 @@
             left: 0;
             border-radius: 50%;
         }
-        .heart-stable-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Space between hearts */
-        }
         .heart-stable {
             border: 10px solid #ff0047; /* Neon red */
             border-radius: 50%;
             background: transparent;
-            width: 150px; /* Reduced size */
-            height: 150px; /* Reduced size */
         }
         .heart-stable-inner {
             width: 100%;
             height: 100%;
+            background-image: url('songs/pic.jpg'); /* Same image or different */
             background-size: cover;
             background-position: center;
             border-radius: 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        .heart-stable-inner:nth-child(1) {
-            background-image: url('songs/pic.jpg'); /* First image */
-        }
-        .heart-stable-inner:nth-child(2) {
-            background-image: url('songs/pic2.jpg'); /* Second image */
-        }
-        .heart-stable-inner:nth-child(3) {
-            background-image: url('songs/pic3.jpg'); /* Third image */
         }
         @keyframes rotateHeart {
             0% { transform: rotate(0deg) rotate(45deg); }
@@ -112,28 +93,18 @@
     </style>
 </head>
 <body>
-    <h1>Hello Jyoti ji, Aapke Ek message hai, hopefully it will de-stress you!!!!</h1>
+    <h1>Hello Jyoti ji, Tere li ek message hai, It will de-stress you!!!</h1>
     <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle. Good luck with your placements! Stay focused and keep going strong." ~ Legend Jatin Kalal</div>
     <div class="heart">
         <div class="heart-inner"></div>
     </div>
-    <div class="heart-stable-container">
-        <div class="heart-stable">
-            <div class="heart-stable-inner"></div>
-        </div>
-        <div class="heart-stable">
-            <div class="heart-stable-inner"></div>
-        </div>
-        <div class="heart-stable">
-            <div class="heart-stable-inner"></div>
-        </div>
+    <div class="heart-stable">
+        <div class="heart-stable-inner"></div>
     </div>
-    <div class="quote-second">"Another heartfelt message goes here. You always look good, so keep up that smile, looking forward to having more trips with you. You still have no idea what all I can do for you, for now, let's keep it a surprise. My mind is constantly in how to surprise you and also don't forget about making reels, but anyway missing you a lot...."</div>
+    <div class="quote-second">"Another heartfelt message goes here. You always look good, so keep up that smile, looking forward to have more trips with you, you still have no idea what all can i do still for you, for now lets keep it as surpise, my mind is constantly in how to surpise you and also dont forget about making reels, but anyway missing you a lot...."</div>
     <audio autoplay>
         <source src="songs/song.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 </body>
 </html>
-
-
