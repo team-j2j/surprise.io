@@ -69,40 +69,34 @@
         }
         .heart-stable-container {
             display: flex;
-            justify-content: space-around; /* Space between hearts */
-            align-items: center;
-            margin-bottom: 20px;
-            height: 200px; /* Ensure container has the same height as hearts */
+            justify-content: center;
+            gap: 20px; /* Space between hearts */
         }
         .heart-stable {
             border: 10px solid #ff0047; /* Neon red */
             border-radius: 50%;
             background: transparent;
-            width: 150px; /* Adjusted size */
-            height: 150px; /* Adjusted size */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
+            width: 150px; /* Reduced size */
+            height: 150px; /* Reduced size */
         }
         .heart-stable-inner {
-            width: 130px; /* Slightly smaller than the outer border to fit well */
-            height: 130px; /* Same size as width */
+            width: 100%;
+            height: 100%;
             background-size: cover;
             background-position: center;
             border-radius: 50%;
             position: absolute;
-            top: 10px; /* Adjust to fit nicely */
-            left: 10px; /* Adjust to fit nicely */
+            top: 0;
+            left: 0;
         }
-        .heart-stable:nth-child(1) .heart-stable-inner {
+        .heart-stable-inner:nth-child(1) {
             background-image: url('songs/pic.jpg'); /* First image */
         }
-        .heart-stable:nth-child(2) .heart-stable-inner {
-            background-image: url('songs/pic2.jpeg'); /* Second image */
+        .heart-stable-inner:nth-child(2) {
+            background-image: url('songs/pic2.jpg'); /* Second image */
         }
-        .heart-stable:nth-child(3) .heart-stable-inner {
-            background-image: url('songs/pic3.jpeg'); /* Third image */
+        .heart-stable-inner:nth-child(3) {
+            background-image: url('songs/pic3.jpg'); /* Third image */
         }
         @keyframes rotateHeart {
             0% { transform: rotate(0deg) rotate(45deg); }
@@ -118,7 +112,7 @@
     </style>
 </head>
 <body>
-    <h1>Hello Jyoti Ji, Aaapke ek message hai, hopefully it will destress you!!!!</h1>
+    <h1>Hello Jyoti ji, Aapke Ek message hai, hopefully it will de-stress you!!!!</h1>
     <div class="quote">Jyoti, you are really special to me, and I can’t thank you enough. Just being you is more than enough for me. Remember, the journey ahead may be challenging, but every step you take is a step closer to your goals. Stay consistent and keep pushing forward—success is just around the corner. Believe in yourself, and you will conquer every obstacle. Good luck with your placements! Stay focused and keep going strong." ~ Legend Jatin Kalal</div>
     <div class="heart">
         <div class="heart-inner"></div>
@@ -141,3 +135,5 @@
     </audio>
 </body>
 </html>
+
+
